@@ -12,6 +12,10 @@ group :development do
 	# gem install sqlite3 -v '1.3.8'
 end
 
+group :production do
+  gem 'pg', '0.12.2'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
