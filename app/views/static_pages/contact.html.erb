@@ -1,8 +1,20 @@
-<div class="row">
-    <div class="large-8 columns">
-      <h1>Get in touch!</h1>  
-      <i class="foundicon-facebook"></i>
+<div class="row" id ="contact_list">
+    <div class="large-8 columns">  
+      <li><%= link_to(image_tag("facebook.png", :alt => "facebook logo", :title => " facebook icon"), "http://facebook.com/jmsevold") %></li><br>
+      
+      <li><%= link_to(image_tag("twitter.png", :alt => "twitter logo", :title => " twitter icon"), "http://twitter.com/jmsevold") %>   </li><br>
+      
+      <li>
+      	<%= mail_to "jmsevold@gmail.com", raw(image_tag("email.png")) %>
+      </li><br>
+      <li>
+      </li>
     </div>
 </div>
   
   
+
+  <!--<a href="http://facebook.com/jmsevold"><img src="/app/assets/images/facebook.png"></a>
+
+
+   

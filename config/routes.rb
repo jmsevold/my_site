@@ -4,6 +4,7 @@ MySite::Application.routes.draw do
   get "static_pages/home"
   get "static_pages/about"
   get "static_pages/contact"
+  get "static_pages/books"
   #match '/about', to: 'static_pages#about'
   #match '/contact', to: 'static_pages#contact'
 
